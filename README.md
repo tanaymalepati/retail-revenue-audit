@@ -1,2 +1,15 @@
-# retail-revenue-audit
-revenue intelligence audit for urbantrends retail. sanitized 1,000,000+ rows of raw data to identify $2.4m in leakage and $17.7m in total net revenue. built with postgresql using advanced window functions and rfm-proxy logic.
+# urban trends: revenue intelligence audit
+**project code:** KL-CAP-001 | **lead consultant:** tanay
+
+### overview
+a comprehensive data audit and revenue analysis for urban trends retail, a uk-based gift retailer. this project involved sanitizing 1,000,000+ raw transaction logs to identify revenue leakage and growth trends.
+
+### tech stack
+* **database:** postgresql
+* **tooling:** vs code, pg_dump
+* **analysis:** sql (window functions, aggregations)
+
+### key findings
+* **net revenue:** $17.7M (post-sanitization)
+* **revenue leakage:** $2.4M identified in cancellations and pricing errors
+* **top market:** uk (primary), with high aov identified in international markets
